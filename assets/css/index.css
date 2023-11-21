@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  scroll-behavior: smooth;
+  text-align: justify;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+aside {
+  position: sticky;
+}
+
+main {
+  padding: 0 1rem;
+  overflow-y: auto;
+}
